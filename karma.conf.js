@@ -48,7 +48,6 @@ module.exports = function (config) {
      */
     reporters: ['progress', 'coverage'],
 
-
     /**
      * Web server port number.
      *
@@ -96,7 +95,7 @@ module.exports = function (config) {
      *
      * @type {Array}
      */
-    browsers: ['Chrome', 'Firefox', 'PhantomJS'],
+    browsers: ['Chrome', 'Firefox'],
 
     /**
      * If a browser does not capture within a given timeout, kill it.
@@ -111,6 +110,6 @@ module.exports = function (config) {
      *
      * @type {Boolean}
      */
-    singleRun: false
-  });
-};
+    singleRun: true
+  })
+}
